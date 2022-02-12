@@ -16,6 +16,5 @@ def main(toponim):
 
 if __name__ == '__main__':
     t = " ".join(sys.argv[1:])
-    t = "Казань,Шамиля-Усманова19"
     if t:
         main(t)
